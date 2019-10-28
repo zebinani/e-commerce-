@@ -1,0 +1,67 @@
+body {
+    background-image: url(./image/eaux.jpeg);
+   margin: 0;
+   padding:0px ;
+   border: brown solid 1px;
+}
+#container{
+    width: 1024px;
+    margin: 0 auto;
+    border: 3px solid rgb(133, 230, 236);
+
+}
+.header{
+    display: flex;
+}
+nav {
+    
+    background-color: rgb(133, 230, 236);
+    border: solid 2px red;
+   
+	
+}
+nav  ul li  {
+    margin: 1px;
+    padding: 1px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-content: flex-end;
+
+}
+
+
+.pub{
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid rgb(133, 230, 236);
+    display: flex;
+
+}
+
+.posts{ 
+    
+border:solid 2px red;
+
+display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-content: space-around;
+}
+.galery{
+    padding: 2px;
+    margin: 3px;
+    border: rgb(139, 114, 250) solid 2px;
+     
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-content: space-around;
+
+}
